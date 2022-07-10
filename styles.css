@@ -1,0 +1,118 @@
+body{
+    font-family: 'Outfit', sans-serif; 
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .container{
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .card{
+        background-color: White;
+        height: 580px;
+        width: 400px;
+        border-radius: 20px;
+
+    }
+    
+    .card__images{
+       width: 100%; 
+       border-radius: 20px 20px 0 0;
+    }
+
+    .title{
+        color: black;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text{
+        color:rgb(201, 196, 196);
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .plan__box1{
+        margin: 25px;
+        padding: -10%;
+        background-color: hsl(225, 100%, 98%);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    h2{
+        color:rgb(0, 0, 0);
+        font-size: 15px;
+        margin: 0; /**/
+        display: flex;
+        align-items: flex-start;  
+        
+    }
+
+    p{
+        color:rgb(190, 186, 186);
+        font-size: 14px;
+        display: flex;
+        margin: 0; /**/
+    }
+
+    a{
+       color:  rgb(6, 6, 240);
+        font-size: 16px;
+        margin-right: 5%;
+    }
+
+    .images__plan__box1{
+        border-radius: 50px;
+        border: 20px solid hsl(225, 100%, 98%);
+    }
+
+.music1{
+    display: flex;
+}
+
+.music2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+
+}
+
+.plan__box2{
+    margin: 25px;
+    max-height: 40px;
+    background-color: rgb(36, 36, 214);
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;     
+}
+
+
+
+.text__footer{
+    color: rgb(139, 137, 137);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
